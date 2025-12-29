@@ -1,4 +1,4 @@
-# Paisabazaar Credit Score Analysis & EDA
+# Credit Score Analysis & EDA
 
 ## Project Overview
 
