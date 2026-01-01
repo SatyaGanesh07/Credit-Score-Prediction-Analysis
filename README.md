@@ -333,7 +333,7 @@ plt.show()
 
 ## Age Demographics
 ### Chart - 2 visualization code
-```
+```python
 fig,ax = plt.subplots(1,1,figsize = (18,10))
 
 sns.histplot(x = 'Age' , data = bank_df , ax = ax ,kde = True, bins = 30, color = '#0066FF')
