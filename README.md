@@ -160,28 +160,8 @@ While no machine learning model is built in this phase, the insights derived fro
 3. Open `EDA_Notebook.ipynb` and run all cells to reproduce the analysis.
 
 ---
-## Data Limitations
-
-- The dataset is static and does not capture real-time customer behavior.
-- Some behavioral attributes are self-reported and may contain bias.
-- Credit score labels are categorical rather than continuous, limiting fine-grained risk estimation.
-- External factors such as economic conditions are not included.
-
---- 
-
-## Evaluation Metrics (For Predictive Modeling Phase)
-
-- Accuracy
-- Precision, Recall, F1-Score
-- Confusion Matrix
-- ROC-AUC Score
---- 
 ## Contact
 
-**Name:** Venkata Satya Ganesh  
-**Role:** Aspiring Data Analyst  
-**Skills:** Python, SQL, Power BI,Snowflake   
-**LinkedIn:** <your-linkedin-link>
-
-## Contact
+For any questions or suggestions, please open an issue or contact me via LinkedIn:  
+[Satya Ganesh LinkedIn](https://www.linkedin.com/in/satya-ganesh-5a89b2283/)
 
