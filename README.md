@@ -1,16 +1,19 @@
-# Credit Score Analysis & EDA
+# Credit Risk & Credit Score Analysis | **Exploratory Data Analysis (EDA)**
+#### **Tools: Python, Pandas, NumPy, Matplotlib, Seaborn**
+
+--- 
 
 ## Project Overview
 
 In today's financial landscape, accurate credit score assessment is vital for both financial institutions and customers. Paisabazaar, a leading financial services company, helps individuals find and apply for banking and credit products.
 
-This project performs an **Exploratory Data Analysis (EDA)** on customer financial and behavioral data to understand patterns, detect anomalies, and extract insights to improve credit scoring, reduce loan defaults, and optimize customer service decisions.
+This project performs an **Exploratory Data Analysis (EDA)** on customer financial and behavioral data to understand patterns, detect anomalies, and extract data-driven insights to support credit risk assessment, reduce potential loan defaults, and improve decision-making efficiency.
 
 ---
 
 ## Problem Statement
 
-Paisabazaar relies on accurate customer creditworthiness assessment to facilitate loan approvals and mitigate financial risks. The current methods of credit evaluation can be enhanced through advanced data analysis and modeling.
+Paisabazaar relies on accurate customer creditworthiness assessment to facilitate loan approvals and mitigate financial risks.The current methods of credit evaluation can be enhanced through advanced data analysis to better capture the combined impact of income, debt, credit utilization, and payment behavior on credit scores.
 
 **Goal:** Accurately predict credit scores based on customer data, including income, credit card usage, and payment behavior, to assist Paisabazaar in:
 
@@ -116,38 +119,69 @@ Paisabazaar-Credit-EDA/
 
 ---
 
-## Libraries Used
+## Imported Libraries
+
+
+### This project uses the following Python libraries for data manipulation, visualization, and analysis:
 
 ```python
-# Data Analysis
-pandas, numpy
 
-# Visualization
-matplotlib, seaborn
 
-# Misc
-warnings
+# Data manipulation and numerical analysis
+import pandas as pd
+import numpy as np
+
+# Data visualization
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Image and plot styling utilities
+import matplotlib.image as mpimg
+import matplotlib.lines as lines
+import matplotlib.patches as patches
+
+# Warnings handling
+import warnings
+warnings.filterwarnings('ignore')
 ```
-
 ---
 
-## How to Run
+# Tools & Technologies
 
-1. Clone the repository:
+* **Python**
+* **Pandas, NumPy**
+* **Matplotlib, Seaborn**
 
-```bash
-git clone https://github.com/yourusername/Paisabazaar-Credit-EDA.git
-```
+--- 
+## Project Scope
 
-2. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
+This project focuses on **Exploratory Data Analysis (EDA)** to understand the key factors influencing credit scores.  
+While no machine learning model is built in this phase, the insights derived from EDA are intended to support future development of predictive credit scoring models.
 3. Open `EDA_Notebook.ipynb` and run all cells to reproduce the analysis.
 
 ---
+## Data Limitations
+
+- The dataset is static and does not capture real-time customer behavior.
+- Some behavioral attributes are self-reported and may contain bias.
+- Credit score labels are categorical rather than continuous, limiting fine-grained risk estimation.
+- External factors such as economic conditions are not included.
+
+--- 
+
+## Evaluation Metrics (For Predictive Modeling Phase)
+
+- Accuracy
+- Precision, Recall, F1-Score
+- Confusion Matrix
+- ROC-AUC Score
+--- 
+## Contact
+
+**Name:** Venkata Satya Ganesh  
+**Role:** Aspiring Data Analyst  
+**Skills:** Python, SQL, Power BI,Snowflake   
+**LinkedIn:** <your-linkedin-link>
 
 ## Contact
 
